@@ -122,26 +122,26 @@ function App() {
                         <>
                           {saleItem.powerScore > 205000 ? (
                             <img
-                              src="https://file.mir4global.com/xdraco-thumb/wallet/wallet_thumb_warrior_legendary_0.png"
-                              alt="Warrior Grade 5"
+                              src={require("./assets/images/thumbnails/warrior_legendary.png")}
+                              alt="warrior"
                               style={{ maxWidth: "100%" }}
                             />
                           ) : saleItem.powerScore > 170000 ? (
                             <img
-                              src="https://wemix-nft-content.wemixplay.com/aHR0cHM6Ly9maWxlLm1pcjRnbG9iYWwuY29t/xdraco-thumb/wallet/wallet_thumb_warrior_epic_0.png?w=650"
-                              alt="Warrior Grade 5"
+                              src={require("./assets/images/thumbnails/warrior_epic.png")}
+                              alt="warrior"
                               style={{ maxWidth: "100%" }}
                             />
-                          ) : saleItem.powerScore > 145000 ? (
+                          ) : saleItem.powerScore > 135000 ? (
                             <img
-                              src="https://wemix-nft-content.wemixplay.com/aHR0cHM6Ly9maWxlLm1pcjRnbG9iYWwuY29t/xdraco-thumb/wallet/wallet_thumb_warrior_rare_0.png?w=650"
-                              alt="Warrior Grade 5"
+                              src={require("./assets/images/thumbnails/warrior_rare.png")}
+                              alt="warrior"
                               style={{ maxWidth: "100%" }}
                             />
                           ) : (
                             <img
-                              src="https://wemix-nft-content.wemixplay.com/aHR0cHM6Ly9maWxlLm1pcjRnbG9iYWwuY29t/xdraco-thumb/wallet/wallet_thumb_warrior_uncommon_0.png?w=650"
-                              alt="Warrior Grade 5"
+                              src={require("./assets/images/thumbnails/warrior_uncommon.png")}
+                              alt="warrior"
                               style={{ maxWidth: "100%" }}
                             />
                           )}
@@ -152,26 +152,26 @@ function App() {
                         <>
                           {saleItem.powerScore > 205000 ? (
                             <img
-                              src="https://wemix-nft-content.wemixplay.com/aHR0cHM6Ly9maWxlLm1pcjRnbG9iYWwuY29t/xdraco-thumb/wallet/wallet_thumb_sorcerer_legendary_0.png?w=650"
-                              alt="Warrior Grade 5"
+                              src={require("./assets/images/thumbnails/sorcerer_legendary.png")}
+                              alt="sorcerer"
                               style={{ maxWidth: "100%" }}
                             />
                           ) : saleItem.powerScore > 170000 ? (
                             <img
-                              src="https://wemix-nft-content.wemixplay.com/aHR0cHM6Ly9maWxlLm1pcjRnbG9iYWwuY29t/xdraco-thumb/wallet/wallet_thumb_sorcerer_epic_0.png?w=650"
-                              alt="Warrior Grade 5"
+                              src={require("./assets/images/thumbnails/sorcerer_epic.png")}
+                              alt="sorcerer"
                               style={{ maxWidth: "100%" }}
                             />
-                          ) : saleItem.powerScore > 145000 ? (
+                          ) : saleItem.powerScore > 135000 ? (
                             <img
-                              src="https://wemix-nft-content.wemixplay.com/aHR0cHM6Ly9maWxlLm1pcjRnbG9iYWwuY29t/xdraco-thumb/wallet/wallet_thumb_sorcerer_rare_0.png?w=650"
-                              alt="Warrior Grade 5"
+                              src={require("./assets/images/thumbnails/sorcerer_rare.png")}
+                              alt="sorcerer"
                               style={{ maxWidth: "100%" }}
                             />
                           ) : (
                             <img
-                              src="https://wemix-nft-content.wemixplay.com/aHR0cHM6Ly9maWxlLm1pcjRnbG9iYWwuY29t/xdraco-thumb/wallet/wallet_thumb_sorcerer_uncommon_0.png?w=650"
-                              alt="Warrior Grade 5"
+                              src={require("./assets/images/thumbnails/sorcerer_uncommon.png")}
+                              alt="sorcerer"
                               style={{ maxWidth: "100%" }}
                             />
                           )}
@@ -182,26 +182,26 @@ function App() {
                         <>
                           {saleItem.powerScore > 205000 ? (
                             <img
-                              src="https://file.mir4global.com/xdraco-thumb/wallet/wallet_thumb_taoist_legendary_0.png"
-                              alt="Warrior Grade 5"
+                              src={require("./assets/images/thumbnails/taoist_legendary.png")}
+                              alt="taoist"
                               style={{ maxWidth: "100%" }}
                             />
                           ) : saleItem.powerScore > 170000 ? (
                             <img
-                              src="https://wemix-nft-content.wemixplay.com/aHR0cHM6Ly9maWxlLm1pcjRnbG9iYWwuY29t/xdraco-thumb/wallet/wallet_thumb_taoist_epic_0.png?w=650"
-                              alt="Warrior Grade 5"
+                              src={require("./assets/images/thumbnails/taoist_epic.png")}
+                              alt="taoist"
                               style={{ maxWidth: "100%" }}
                             />
-                          ) : saleItem.powerScore > 145000 ? (
+                          ) : saleItem.powerScore > 135000 ? (
                             <img
-                              src="https://wemix-nft-content.wemixplay.com/aHR0cHM6Ly9maWxlLm1pcjRnbG9iYWwuY29t/xdraco-thumb/wallet/wallet_thumb_taoist_rare_0.png?w=650"
-                              alt="Warrior Grade 5"
+                              src={require("./assets/images/thumbnails/taoist_rare.png")}
+                              alt="taoist"
                               style={{ maxWidth: "100%" }}
                             />
                           ) : (
                             <img
-                              src="https://wemix-nft-content.wemixplay.com/aHR0cHM6Ly9maWxlLm1pcjRnbG9iYWwuY29t/xdraco-thumb/wallet/wallet_thumb_taoist_uncommon_0.png?w=650"
-                              alt="Warrior Grade 5"
+                              src={require("./assets/images/thumbnails/taoist_uncommon.png")}
+                              alt="taoist"
                               style={{ maxWidth: "100%" }}
                             />
                           )}
@@ -212,26 +212,26 @@ function App() {
                         <>
                           {saleItem.powerScore > 205000 ? (
                             <img
-                              src="https://file.mir4global.com/xdraco-thumb/wallet/wallet_thumb_arbalist_legendary_0.png"
-                              alt="Warrior Grade 5"
+                              src={require("./assets/images/thumbnails/arbalist_legendary.png")}
+                              alt="arbalist"
                               style={{ maxWidth: "100%" }}
                             />
                           ) : saleItem.powerScore > 170000 ? (
                             <img
-                              src="https://wemix-nft-content.wemixplay.com/aHR0cHM6Ly9maWxlLm1pcjRnbG9iYWwuY29t/xdraco-thumb/wallet/wallet_thumb_arbalist_epic_0-772d3635302d682d302d712d302d662d302d6f2d30.png"
-                              alt="Warrior Grade 5"
+                              src={require("./assets/images/thumbnails/arbalist_epic.png")}
+                              alt="arbalist"
                               style={{ maxWidth: "100%" }}
                             />
-                          ) : saleItem.powerScore > 145000 ? (
+                          ) : saleItem.powerScore > 135000 ? (
                             <img
-                              src="https://wemix-nft-content.wemixplay.com/aHR0cHM6Ly9maWxlLm1pcjRnbG9iYWwuY29t/xdraco-thumb/wallet/wallet_thumb_arbalist_rare_0.png?w=650"
-                              alt="Warrior Grade 5"
+                              src={require("./assets/images/thumbnails/arbalist_rare.png")}
+                              alt="arbalist"
                               style={{ maxWidth: "100%" }}
                             />
                           ) : (
                             <img
-                              src="https://wemix-nft-content.wemixplay.com/aHR0cHM6Ly9maWxlLm1pcjRnbG9iYWwuY29t/xdraco-thumb/wallet/wallet_thumb_arbalist_uncommon_0.png?w=650"
-                              alt="Warrior Grade 5"
+                              src={require("./assets/images/thumbnails/arbalist_uncommon.png")}
+                              alt="arbalist"
                               style={{ maxWidth: "100%" }}
                             />
                           )}
@@ -242,26 +242,26 @@ function App() {
                         <>
                           {saleItem.powerScore > 205000 ? (
                             <img
-                              src="https://file.mir4global.com/xdraco-thumb/wallet/wallet_thumb_lancer_legendary_0.png"
-                              alt="Warrior Grade 5"
+                              src={require("./assets/images/thumbnails/lancer_legendary.png")}
+                              alt="lancer"
                               style={{ maxWidth: "100%" }}
                             />
                           ) : saleItem.powerScore > 170000 ? (
                             <img
-                              src="https://wemix-nft-content.wemixplay.com/aHR0cHM6Ly9maWxlLm1pcjRnbG9iYWwuY29t/xdraco-thumb/wallet/wallet_thumb_lancer_epic_0.png?w=650"
-                              alt="Warrior Grade 5"
+                              src={require("./assets/images/thumbnails/lancer_epic.png")}
+                              alt="lancer"
                               style={{ maxWidth: "100%" }}
                             />
-                          ) : saleItem.powerScore > 145000 ? (
+                          ) : saleItem.powerScore > 135000 ? (
                             <img
-                              src="https://wemix-nft-content.wemixplay.com/aHR0cHM6Ly9maWxlLm1pcjRnbG9iYWwuY29t/xdraco-thumb/wallet/wallet_thumb_lancer_rare_0.png?w=650"
-                              alt="Warrior Grade 5"
+                              src={require("./assets/images/thumbnails/lancer_rare.png")}
+                              alt="lancer"
                               style={{ maxWidth: "100%" }}
                             />
                           ) : (
                             <img
-                              src="https://wemix-nft-content.wemixplay.com/aHR0cHM6Ly9maWxlLm1pcjRnbG9iYWwuY29t/xdraco-thumb/wallet/wallet_thumb_lancer_uncommon_0.png?w=650"
-                              alt="Warrior Grade 5"
+                              src={require("./assets/images/thumbnails/lancer_uncommon.png")}
+                              alt="lancer"
                               style={{ maxWidth: "100%" }}
                             />
                           )}
@@ -272,26 +272,26 @@ function App() {
                         <>
                           {saleItem.powerScore > 205000 ? (
                             <img
-                              src="https://wemix-nft-content.wemixplay.com/aHR0cHM6Ly9maWxlLm1pcjRnbG9iYWwuY29t/xdraco-thumb/wallet/wallet_thumb_darkist_uncommon_0.png?w=650"
-                              alt="Warrior Grade 5"
+                              src={require("./assets/images/thumbnails/darkist_legendary.png")}
+                              alt="darkist"
                               style={{ maxWidth: "100%" }}
                             />
                           ) : saleItem.powerScore > 170000 ? (
                             <img
-                              src="https://wemix-nft-content.wemixplay.com/aHR0cHM6Ly9maWxlLm1pcjRnbG9iYWwuY29t/xdraco-thumb/wallet/wallet_thumb_darkist_uncommon_0.png?w=650"
-                              alt="Warrior Grade 5"
+                              src={require("./assets/images/thumbnails/darkist_epic.png")}
+                              alt="darkist"
                               style={{ maxWidth: "100%" }}
                             />
-                          ) : saleItem.powerScore > 145000 ? (
+                          ) : saleItem.powerScore > 135000 ? (
                             <img
-                              src="https://wemix-nft-content.wemixplay.com/aHR0cHM6Ly9maWxlLm1pcjRnbG9iYWwuY29t/xdraco-thumb/wallet/wallet_thumb_darkist_rare_0.png?w=650"
-                              alt="Warrior Grade 5"
+                              src={require("./assets/images/thumbnails/darkist_rare.png")}
+                              alt="darkist"
                               style={{ maxWidth: "100%" }}
                             />
                           ) : (
                             <img
-                              src="https://wemix-nft-content.wemixplay.com/aHR0cHM6Ly9maWxlLm1pcjRnbG9iYWwuY29t/xdraco-thumb/wallet/wallet_thumb_darkist_uncommon_0.png?w=650"
-                              alt="Warrior Grade 5"
+                              src={require("./assets/images/thumbnails/darkist_uncommon.png")}
+                              alt="darkist"
                               style={{ maxWidth: "100%" }}
                             />
                           )}
@@ -372,7 +372,7 @@ function App() {
                           <div className="flex flex-row items-center justify-end gap-2">
                             <img
                               src="https://file.mir4global.com/xdraco/img/mobile/popup/ico-wemix-credit-logo.webp"
-                              alt="Warrior Grade 5"
+                              alt="arbalist"
                               style={{ maxWidth: "20%" }}
                             />
                             <p className="text-white font-bold">
